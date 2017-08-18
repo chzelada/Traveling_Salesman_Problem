@@ -10,3 +10,5 @@ Simulation Approach for TSP using R
 | boost_sol.R             | Code to solve TSP by generating N random routes. The shortest distance is used as solution.|
 | anneling.R              | Code to solve TSP using Simulated Annealing Algorithm.                                     |
 | functions.R             | Several function used for each of the simulations.                                         |
+| distance.R              | Code used to retrieve distance between to location using Google maps api.                  |
+| hosp_coordinates.csv    | Contains the latitude and longitude coordinates for different hospitals in Guatemala       |
