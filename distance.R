@@ -2,7 +2,7 @@ library(readr)
 library(tidyverse)
 library(httr)
 library(jsonlite)
-hosp_coordinates <- read_csv("~/Dropbox/Hospital Problem/hosp_coordinates.csv")
+hosp_coordinates <- read_csv("hosp_coordinates.csv")
 url_part_1 <- "https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins="
 url_part_2 <- "&destinations="
 api_key <- "&key=<insert your api key>"

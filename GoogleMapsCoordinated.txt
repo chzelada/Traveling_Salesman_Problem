@@ -1,0 +1,44 @@
+https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=14.5912608,-90.5339537&destinations=14.6066967,-90.5092556&key=AIzaSyDFQ8BdKSVzqKQU-ZVB_-1NTzGrvyL3FBs
+https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins=14.5912608,-90.5339537&destinations=14.6066967%2C-90.5092556%7C14.627218%2C-90.5185984&key=AIzaSyDFQ8BdKSVzqKQU-ZVB_-1NTzGrvyL3FBs
+
+
+
+https://maps.googleapis.com/maps/api/directions/json?origin=Boston,MA&destination=Concord,MA&waypoints=Charlestown,MA|via:Lexington,MA&key=AIzaSyDFQ8BdKSVzqKQU-ZVB_-1NTzGrvyL3FBs
+
+https://maps.googleapis.com/maps/api/directions/json?origin=14.5912608,-90.5339537&destination=14.6066967,-90.5092556&key=AIzaSyDFQ8BdKSVzqKQU-ZVB_-1NTzGrvyL3FBs
+
+
+apiKey = AIzaSyDFQ8BdKSVzqKQU-ZVB_-1NTzGrvyL3FBs
+
+1. 14.5912608,-90.5339537 la Aurora
+2 14.6066967,-90.5092556 pilar
+3. 14.627218,-90.5185984 cedros
+4. 14.6397517,-90.5218656 promesa
+5. 14.6397517,-90.5218656 San Juan de Dios
+6. 14.6352042,-90.4923467 centro medico militar
+7. 14.5809036,-90.5187131 la paz
+8. 14.5809036,-90.5187131 Maranatha
+9. 14.6027031,-90.5345902 autonomia igss
+10. 14.5815939,-90.5169868 las america
+11. 14.6043228,-90.5634769 Hermano Pedro
+12. 14.5793163,-90.5557134 Santa Clara Villasol
+14.6513921,-90.5003986 General Dr. Juan Jose Arevalo
+
+
+%2C
+
+
+https://www.google.com.gt/maps/place/La+Aurora+Airport+(GUA)/@14.5912608,-90.5339537,13z/data=!4m5!3m4!1s0x0:0xa8d9f9b1ae2d4eca!8m2!3d14.5837496!4d-90.5278158?hl=en
+https://www.google.com.gt/maps/place/Campo+Marte/@14.6066967,-90.5092556,14.58z/data=!4m12!1m6!3m5!1s0x0:0xa8d9f9b1ae2d4eca!2sLa+Aurora+Airport+(GUA)!8m2!3d14.5837496!4d-90.5278158!3m4!1s0x0:0x872acdf82f60b625!8m2!3d14.613786!4d-90.5074739?hl=en
+https://www.google.com.gt/maps/place/Nuestra+Señora+Del+Pilar+Hospital/@14.6066967,-90.5092556,14.58z/data=!4m12!1m6!3m5!1s0x0:0xa8d9f9b1ae2d4eca!2sLa+Aurora+Airport+(GUA)!8m2!3d14.5837496!4d-90.5278158!3m4!1s0x0:0xfeb7d9bedf4adf14!8m2!3d14.6100278!4d-90.4993415?hl=en
+https://www.google.com.gt/maps/place/Hospital+Cedros/@14.627218,-90.5185984,14.58z/data=!4m12!1m6!3m5!1s0x0:0xa8d9f9b1ae2d4eca!2sLa+Aurora+Airport+(GUA)!8m2!3d14.5837496!4d-90.5278158!3m4!1s0x0:0x80ff691be5a0a85e!8m2!3d14.6459722!4d-90.511272?hl=en
+https://www.google.com.gt/maps/place/Hospital+General+Dr.+Juan+José+Arévalo+Bermejo+IGSS/@14.6449647,-90.5070202,14.58z/data=!4m12!1m6!3m5!1s0x0:0xa8d9f9b1ae2d4eca!2sLa+Aurora+Airport+(GUA)!8m2!3d14.5837496!4d-90.5278158!3m4!1s0x0:0x55b59ae8d06099de!8m2!3d14.6515204!4d-90.4943365?hl=en
+https://www.google.com.gt/maps/place/Hospital+Promesa/@14.6397517,-90.5218656,14.58z/data=!4m12!1m6!3m5!1s0x0:0xa8d9f9b1ae2d4eca!2sLa+Aurora+Airport+(GUA)!8m2!3d14.5837496!4d-90.5278158!3m4!1s0x0:0x62045dd7f044b5e8!8m2!3d14.6460605!4d-90.5108804?hl=en
+https://www.google.com.gt/maps/place/Centro+Médico+Militar/@14.6352042,-90.4923467,14.58z/data=!4m12!1m6!3m5!1s0x0:0xa8d9f9b1ae2d4eca!2sLa+Aurora+Airport+(GUA)!8m2!3d14.5837496!4d-90.5278158!3m4!1s0x0:0x718d199c7ca543c!8m2!3d14.6284497!4d-90.462622?hl=en
+https://www.google.com.gt/maps/place/Hospital+La+Paz/@14.5809036,-90.5187131,14.58z/data=!4m12!1m6!3m5!1s0x0:0xa8d9f9b1ae2d4eca!2sLa+Aurora+Airport+(GUA)!8m2!3d14.5837496!4d-90.5278158!3m4!1s0x0:0x34016de98c8a7550!8m2!3d14.5855303!4d-90.5185461?hl=en
+https://www.google.com.gt/maps/place/Hospital+Maranatha/@14.5809036,-90.5187131,14.58z/data=!4m12!1m6!3m5!1s0x0:0xa8d9f9b1ae2d4eca!2sLa+Aurora+Airport+(GUA)!8m2!3d14.5837496!4d-90.5278158!3m4!1s0x0:0x7aa60229617d9a3d!8m2!3d14.5849125!4d-90.523138?hl=en
+https://www.google.com.gt/maps/place/Autonom%C3%ADa+del+IGSS/@14.6027031,-90.5345902,14.58z/data=!4m12!1m6!3m5!1s0x0:0xa8d9f9b1ae2d4eca!2sLa+Aurora+Airport+(GUA)!8m2!3d14.5837496!4d-90.5278158!3m4!1s0x0:0x1c5824f311b6a9af!8m2!3d14.6037207!4d-90.5277032?hl=en
+
+https://www.google.com.gt/maps/place/Hospital+Hermano+Pedro/@14.6043228,-90.5634769,16z/data=!4m8!1m2!2m1!1shospital!3m4!1s0x0:0xad7e1a957cfe8631!8m2!3d14.6032846!4d-90.5596174?hl=en
+https://www.google.com.gt/maps/place/Hospital+Santa+Clara+Villasol/@14.5793163,-90.5557134,16.52z/data=!4m8!1m2!2m1!1shospital!3m4!1s0x0:0x5100baeab764d30e!8m2!3d14.5828826!4d-90.549826?hl=en
+https://www.google.com.gt/maps/place/Hospital+General+Dr.+Juan+José+Arévalo+Bermejo+IGSS/@14.6513921,-90.5003986,16.3z/data=!4m8!1m2!2m1!1shospital!3m4!1s0x0:0x55b59ae8d06099de!8m2!3d14.6515191!4d-90.4943365?hl=en
