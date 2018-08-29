@@ -23,7 +23,19 @@ lexicographic_order <- function(vec){
   print(vec)
   return(vec)
 }
+undebug(lexicographic_order)
 
+
+lexicographic_order(c(1,3,2,4))
+lexicographic_order(c(1,3,4,2))
+lexicographic_order(c(1,4,2,3))
+lexicographic_order(c(1,4,3,2))
+lexicographic_order(c(2,1,3,4))
+lexicographic_order(c(2,1,4,3))
+lexicographic_order(c(2,3,1,4))
+
+
+lexicographic_order(c(1,3,2,4))
 
 test <- 0:5
 print(test)

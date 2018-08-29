@@ -28,11 +28,13 @@ sample_route <- function(initial_node=1, nodes=4){
 
 
 
-cities_space <- generate_cities(cities = 8) 
+cities_space <- generate_cities(cities = 15) 
 cities_dist <- as.matrix(dist(cities_space[,2:3]))
 dist<-data.frame()
+
+
 for(i in 1:150){
-  Sys.sleep(0.05)
+  Sys.sleep(0.09)
   ruta <- sample_route(1,nrow(cities_dist))
   dist<-rbind( dist, c(ruta, distance_route(ruta,cities_dist) )  )
   names(dist)[ncol(dist)]<-"distance"

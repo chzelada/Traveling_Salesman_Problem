@@ -17,6 +17,7 @@ lex_sol <- function(cities=4){
   return(out)
 }
 
+out<-lex_sol(cities = 9)
 
 lex_graph_sol <- function(cities=4){
   cities_space <- generate_cities(cities) 
@@ -50,4 +51,4 @@ sol <- lex_sol(8)
 plot(1:nrow(sol),sol$distance,type = "l")
 
 
-lex_graph_sol(5)
+lex_graph_sol(8)
