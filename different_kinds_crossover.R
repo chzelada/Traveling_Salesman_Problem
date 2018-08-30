@@ -59,5 +59,55 @@ pmx_crossover <- function(p1,p2){
   return(child1)
 }
 
-debug(pmx_crossover)
-pmx_crossover(sample(1:20),sample(1:20) )
+
+##http://www.rubicite.com/Tutorials/GeneticAlgorithms/CrossoverOperators/CycleCrossoverOperator.aspx
+cx_crossover <- function(p1=sample(1:10),p2=sample(1:10)){
+  
+  find_cycle <- function(p1=sample(1:10),p2=sample(1:10)){
+    cycle <- c()
+    i <- p1[1]
+    cycle <- c(cycle,i)
+    j <- p2[1]
+    cycle <- c(cycle,j)
+    while(j!=i){
+      j <- p2[which(p1==j)]
+      cycle <- c(cycle,j)
+    }
+    return(cycle[-length(cycle) ])
+  }
+  
+  child1<-rep(NA,length(p1))
+  child2<-rep(NA,length(p1))
+  cycle<-find_cycle(p1,p2)
+  g_idx_p1<-c()
+  g_idx_p2<-c()
+  
+  
+  idx_p1 <- sapply(cycle,function(x) which(p1==x) )
+  g_idx_p1 <-idx_p1
+  child2[idx_p1] <- p1[idx_p1]
+  idx_p2 <- sapply(cycle,function(x) which(p2==x) )
+  g_idx_p2 <- idx_p2
+  child1[idx_p2] <- p2[idx_p2]
+  change<-1
+  
+  while(sum(is.na(child1))!=0){
+    p1_i<-p1[-g_idx_p1]
+    p2_i<-p2[-g_idx_p2]
+    cycle <- find_cycle(p1_i,p2_i)
+    idx_p1 <- sapply(cycle,function(x) which(p1==x) )
+    g_idx_p1 <-c(g_idx_p1,idx_p1)
+    idx_p2 <- sapply(cycle,function(x) which(p2==x) )
+    g_idx_p2 <-c(g_idx_p2,idx_p2)
+    
+    if(change%%2==1){
+      child1[idx_p1] <- p1[idx_p1]
+      child2[idx_p2] <- p2[idx_p2]
+    } else {
+      child2[idx_p1] <- p1[idx_p1]
+      child1[idx_p2] <- p2[idx_p2]
+    }
+    change<-change+1
+  }
+  return(list(child1,child2))
+}
