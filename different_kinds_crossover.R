@@ -41,7 +41,6 @@ pmx_crossover <- function(p1,p2){
   (swath2 <- p2[keep_index])
   elements <- setdiff(swath2,swath1)
   for(i in elements){
-    print(i)
     cycle<-TRUE
     j<-i
     while(cycle){
@@ -61,4 +60,4 @@ pmx_crossover <- function(p1,p2){
 }
 
 debug(pmx_crossover)
-pmx_crossover(sample(1:10),sample(1:10) )
+pmx_crossover(sample(1:20),sample(1:20) )
