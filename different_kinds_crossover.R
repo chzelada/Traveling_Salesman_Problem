@@ -111,3 +111,18 @@ cx_crossover <- function(p1=sample(1:10),p2=sample(1:10)){
   }
   return(list(child1,child2))
 }
+
+
+find_edges <- function(p1=sample(1:10),p2=sample(1:10)){
+  N<-list()
+  for(num in 1:10){
+    i <- which( p1==num)-1
+    j <- which( p2==num)-1
+    
+    n1 <- p1[ (i+2)%%10 ]
+    n2 <- p1[ (i)%%10 ]
+    n3 <- p2[ (j+2)%%10  ]
+    n4 <- p2[ (j)%%10 ]
+    N[[num]] <- unique(c(n1,n2,n3,n4)) 
+  } 
+}
